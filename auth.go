@@ -8,7 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var jwtKey = "SECRET_KEY_IBNU"
+var jwtKey = []byte("SECRET_KEY_IBNU")
 
 type User struct {
 	ID       int    `json:"id"`
